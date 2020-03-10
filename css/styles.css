@@ -1,0 +1,35 @@
+/*index*/
+.redes{
+    width: 40px;
+}
+
+body{
+    font-family: Arial; background-color:teal; box-sizing: border-box;
+
+}
+
+form{
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+button{
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    font-family: Arial;
+    color: white;
+    background-color: goldenrod;
+    
+}
+
+.field{
+    padding: 10px;
+      
+    width: 250px;
+}
+

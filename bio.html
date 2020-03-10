@@ -3,10 +3,51 @@
     <head>
         <meta charset="UTF-8" />
         <title>Biografía</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <h1>Biografía</h1>
         <a href="index.html">Home</a>
+
+        <form action="#">
+            <p>Nombre:</p>
+            <input type="text" class="field">
+            <br>
+            <p>Apellido:</p>
+            <input type="text" class="field">
+            <br>
+            <p>email:</p>
+            <input type="text" class="field">
+            <br>
+            <p>Contraseña:</p>
+            <input type="password" class="field id="pass">
+            <br>
+            <p>Fecha de nacimiento:</p>
+            <input type="date" class="field" id="nacimiento">
+            <br>
+            <p>Sexo:</p>
+            <select name="sexo" id="sexo">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
+            <br>
+            <p>Navegador favorito:</p>
+            <input list="navegadores" class="field">
+            <datalist id="navegadores">
+                <option value="Internet Explorer"></option>
+                <option value="Google Chrome"></option>
+                <option value="Firefox"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+            </datalist>
+            <br>
+            <p>Descripción</p>
+            <textarea name="desc" id="" cols="30" rows="10"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+
         <h3>SKILLS</h3>
         <!--Lista no ordenada, requiere li-->
         <ul>
