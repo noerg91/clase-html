@@ -5,6 +5,7 @@
 
 body{
     font-family: Arial; background-color:teal; box-sizing: border-box;
+    margin: 0px auto;
 
 }
 
@@ -13,7 +14,7 @@ form{
     color: gray;
     border-radius: 5px;
     padding: 30px;
-    margin: 0 auto;
+    margin: 0px auto;
     width: 300px;
 }
 
@@ -33,3 +34,13 @@ button{
     width: 250px;
 }
 
+/*Modelo de caja*/
+div{
+    height: 150px;
+    width: 50%;
+    background-color: cadetblue;
+    border: 1px solid black;
+    padding: 15px;
+
+    display: inline-block;
+}
