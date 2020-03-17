@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SpaceX</title> 
+        <title>CONTACTO</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <header>
-            <a href="index.html">
-                <h1>SpaceX</h1>
-            </a>
-
+        <a href="index.html">
+            <h1>SpaceX</h1>
+        </a>
         </header>
+
         <nav>
             <div id="special">
              
@@ -52,13 +52,48 @@
         </nav>
 
         <main>
-            <img src="images/fondo.jpg" alt="fondo" id="fondo">
+        <form action="#">
+            <p>Nombre:</p>
+            <input type="text" class="field">
+            <br>
+            <p>Apellido:</p>
+            <input type="text" class="field">
+            <br>
+            <p>email:</p>
+            <input type="email" class="field">
+            <br>
+            <p>Contraseña:</p>
+            <input type="password" class="field id="pass">
+            <br>
+            <p>Fecha de nacimiento:</p>
+            <input type="date" class="field" id="nacimiento">
+            <br>
+            <p>Sexo:</p>
+            <select name="sexo" id="sexo">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
+            <br>
+            <p>Navegador favorito:</p>
+            <input list="navegadores" class="field">
+            <datalist id="navegadores">
+                <option value="Internet Explorer"></option>
+                <option value="Google Chrome"></option>
+                <option value="Firefox"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+            </datalist>
+            <br>
+            <p>Descripción</p>
+            <textarea name="desc" id="" cols="30" rows="10"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
         </main>
 
-        
-        
         <footer>
-            <div>
+            <<div>
                 <img src="https://www.spacex.com/sites/all/themes/spacex2012/images/logo-sm.png" alt="">
             </div>
             <div>
@@ -77,6 +112,5 @@
                 © 2020 SPACE EXPLORATION TECHNOLOGIES CORP.
             </div>
         </footer>
-
     </body>
 </html>

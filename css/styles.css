@@ -1,20 +1,63 @@
-/*index*/
-.redes{
-    width: 40px;
-}
+
 
 body{
     font-family: Arial; background-color:teal; box-sizing: border-box;
-    margin: 0px auto;
+    margin: 0 auto;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium';
 
 }
+
+header{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+}
+
+
+nav div{
+    /*mostrarlos en linea*/
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+}
+
+nav{
+    background-color: black;
+    min-height: 100px;
+    
+    
+}
+
+
+#special{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+main{
+    background-color: black;
+    color: white;
+    
+
+    
+}
+
+#fondo{
+    margin: 0 auto;
+;
+}
+
+
 
 form{
     background-color: white;
     color: gray;
     border-radius: 5px;
     padding: 30px;
-    margin: 0px auto;
+    margin: 0 auto;
     width: 300px;
 }
 
@@ -34,13 +77,19 @@ button{
     width: 250px;
 }
 
-/*Modelo de caja*/
-div{
-    height: 150px;
-    width: 50%;
-    background-color: cadetblue;
-    border: 1px solid black;
-    padding: 15px;
-
+footer{
+    background-color: black;
+    
+}
+footer div{
+    width: 150px;
+    height: 100px;
+    clear: both;
+    color: white;
     display: inline-block;
+    
+}
+
+#copyright{
+    font-size: 10px;
 }
