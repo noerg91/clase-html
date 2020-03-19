@@ -93,3 +93,40 @@ footer div{
 #copyright{
     font-size: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+    header, footer, nav{
+        height: 100px;
+    }
+
+    #pagina{
+        height: auto;
+    }
+
+}
+  
+@media only screen and (min-width: 1200px){
+    #pagina{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: row-reverse;
+    }
+
+    main{
+        flex-grow: 3;
+    }
+}
+  
+@media only screen and (min-width: 769px) {
+    
+    #pagina{
+        display: flex;
+    }
+
+    }
+
+    main{
+        flex: 5;
+    }
+    
+}
